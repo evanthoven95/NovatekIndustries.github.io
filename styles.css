@@ -21,7 +21,18 @@ body{
     text-align: center;
   } 
 
- 
+  .ir-arriba{
+    display: none;
+    padding:10px;
+    color: white;
+    background-image:linear-gradient(to right, #000000, #414d4f);
+    font-size:20px;
+    cursor:pointer;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    border-radius: 20px;
+  }
   .color-section{
     background-image: linear-gradient(to right, #097379, #bc00ff);
     color: white;
